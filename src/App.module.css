@@ -1,0 +1,19 @@
+.app {
+  background-color: #f4f5f6;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.description {
+  box-sizing: border-box;
+  border: 1px solid;
+  max-width: 40%;
+  padding-top: 100px;
+}

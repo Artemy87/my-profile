@@ -1,0 +1,56 @@
+.profile {
+    height: 100vh;
+    min-width: 800px;
+    max-width: 1000px;
+
+    border: 1px solid;
+}
+
+.container {
+    /*margin: 10%;*/
+    margin: 240px 0 0 10px;
+}
+
+
+.image {
+    height: 220px;
+    width: 220px;
+    border: 8px solid white;
+    border-radius: 50%;
+
+}
+
+
+.textHi {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #3d3d3d;
+}
+
+.textName {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #dc3545;
+}
+
+.textRD {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #3d3d3d;
+    text-align: left;
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #3d3d3d;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    text-align: left;
+}
+
+.buttons {
+
+    display: flex;
+}
