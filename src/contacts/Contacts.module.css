@@ -1,7 +1,30 @@
 .contactsContainer {
-    margin: 50px;
+    margin: 0 50px;
     padding: 50px;
-
+    max-width: 769px;
     border: 1px solid;
 }
+
+.header {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contacts img {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contacts > div {
+    margin: 10px;
+    padding: 10px;
+}
+
 

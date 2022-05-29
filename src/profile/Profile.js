@@ -7,7 +7,7 @@ export const Profile = () => {
 		<div className={styles.profile}>
 			<div className={styles.container}>
 				<div>
-					<img className={styles.image} src={image} alt="Photo"/>
+					<img className={styles.image} src={image} alt="my photo"/>
 				</div>
 				<div className={styles.textHi}>
 					Привет, я
@@ -15,10 +15,10 @@ export const Profile = () => {
 				</div>
 				<div className={styles.textRD}>React разработчик.</div>
 				<div className={styles.description}>Пару слов о моих навыках будут описаны здесь</div>
-				<div className={styles.buttons}>
-					<button>Download My CV</button>
-					<button>Hire Me</button>
-				</div>
+			</div>
+			<div className={styles.buttons}>
+				<button>Download My CV</button>
+				<button>Hire Me</button>
 			</div>
 		</div>
 	);

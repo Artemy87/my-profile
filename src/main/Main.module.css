@@ -1,7 +1,12 @@
-.aboutMeContainer {
-    margin: 50px;
+.main {
+    max-width: 769px;
+    margin: 0 50px;
     padding: 50px;
-
     border: 1px solid;
 }
 
+.header {
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}

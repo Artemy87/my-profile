@@ -1,22 +1,25 @@
 import React from 'react';
+import { Skill } from './skill/Skill'
 import styles from './Skills.module.css';
 import basicText from '../common/styles/BasicText.module.css';
 import headerText from '../common/styles/HeaderText.module.css';
 
-export const Skills = () => {
+export const Skills = (props) => {
 	return (
-		<div className={styles.skillsContainer}>
+		<div className={styles.skills}>
 			<div>
-				<div className={headerText.headerText}>
+				<div className={`${headerText.headerText} ${styles.headerSkillsContainer}`}>
 					Skills
 				</div>
 				<div className={basicText.basicText}>
-					<div>JavaScript</div>
-					<div>TypeScript</div>
-					<div>React</div>
-					<div>Redux</div>
-					<div>Material UI</div>
-					<div>Unit Tests</div>
+					<div className={styles.headerSkills}>Основные скилы</div>
+					<div className={styles.skillsContainer}>
+						{
+							props.skills.map((skill, index) => {
+								return <Skill key={index} title={skill}/>
+							})
+						}
+					</div>
 				</div>
 			</div>
 		</div>

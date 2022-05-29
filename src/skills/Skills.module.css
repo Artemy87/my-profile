@@ -1,5 +1,30 @@
-.skillsContainer {
-    margin: 50px;
+.skills {
+    margin: 0 50px;
     padding: 50px;
     border: 1px solid;
+    max-width: 769px;
+}
+
+.headerSkillsContainer {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.headerSkills {
+    margin-bottom: 40px;
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    gap: 22px;
+    justify-content: center;
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    /*width: 667px;*/
+    /*margin: 0 auto;*/
 }

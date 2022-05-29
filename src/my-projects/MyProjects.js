@@ -3,17 +3,28 @@ import styles from './MyProjects.module.css';
 import basicText from '../common/styles/BasicText.module.css';
 import headerText from '../common/styles/HeaderText.module.css';
 
-export const MyProjects = () => {
+export const MyProjects = (props) => {
 	return (
-		<div className={styles.myProjectsContainer}>
-			<div className={styles.myProjects}>
-				<div className={headerText.headerText}>
+		<div className={styles.myProjects}>
+			<div className={styles.myProjectsContainer}>
+				<div className={`${headerText.headerText} ${styles.header}`}>
 					My Projects
 				</div>
-				<div className={basicText.basicText}>
-					<div>projects 1</div>
-					<div>projects 2</div>
-					<div>projects 3</div>
+				<div className={`${basicText.basicText} ${styles.projectsContainer}`}>
+					{
+						props.projects.map(project => {
+							return (
+								<div key={project.id} className={styles.projects}>
+									<div className={styles.project}>
+										{project.project}
+									</div>
+									<div className={styles.descriptionProjects}>
+										{project.description}
+									</div>
+								</div>
+							)
+						})
+					}
 				</div>
 			</div>
 		</div>

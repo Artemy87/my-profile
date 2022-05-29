@@ -1,9 +1,41 @@
-.myProjectsContainer {
-    margin: 50px;
+.myProjects {
+    margin: 0 50px;
     padding: 50px;
     border: 1px solid;
+    max-width: 769px;
 }
 
-.myProjects {
+.myProjectsContainer {
 
+}
+
+.header {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.projectsContainer {
+    min-width: 600px;
+    word-wrap: revert;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+}
+
+.project {
+    height: 120px;
+    width: 120px;
+    background-color: #e0cfd0;
+}
+
+.descriptionProjects {
+    word-wrap: break-word;
 }

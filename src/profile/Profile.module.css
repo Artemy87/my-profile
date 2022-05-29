@@ -1,16 +1,14 @@
 .profile {
-    height: 100vh;
-    min-width: 800px;
-    max-width: 1000px;
-
-    border: 1px solid;
+    min-height: 100vh;
+    max-width: 769px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    /*margin: 10%;*/
-    margin: 240px 0 0 10px;
+    margin: 240px 10px 10px 10px;
 }
-
 
 .image {
     height: 220px;
@@ -19,7 +17,6 @@
     border-radius: 50%;
 
 }
-
 
 .textHi {
     text-align: left;
@@ -51,6 +48,14 @@
 }
 
 .buttons {
-
-    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button {
+    margin: 10px;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c6c6c6;
 }
