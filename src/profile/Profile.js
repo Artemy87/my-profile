@@ -7,7 +7,7 @@ export const Profile = () => {
 		<div className={styles.profile}>
 			<div className={styles.container}>
 				<div>
-					<img className={styles.image} src={image} alt="my photo"/>
+					<img alt="avatar" className={styles.image} src={image}/>
 				</div>
 				<div className={styles.textHi}>
 					Привет, я
