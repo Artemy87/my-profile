@@ -6,7 +6,6 @@ import headerText from '../common/styles/HeaderText.module.css';
 export const MyProjects = (props) => {
 	return (
 		<div className={styles.myProjects}>
-			<div className={styles.myProjectsContainer}>
 				<div className={`${headerText.headerText} ${styles.header}`}>
 					My Projects
 				</div>
@@ -26,7 +25,6 @@ export const MyProjects = (props) => {
 						})
 					}
 				</div>
-			</div>
 		</div>
 	);
 };

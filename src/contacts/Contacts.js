@@ -12,22 +12,10 @@ export const Contacts = () => {
 		<form className={styles.contactsContainer}>
 			<div className={`${headerText.headerText} ${styles.header}`}>Contacts</div>
 			<div className={`${basicText.basicText} ${styles.contacts}`}>
-				<div>
 					<img src={telegram} alt="img Telegram"/>
-					<div>Telegram</div>
-				</div>
-				<div>
 					<img src={whatsapp} alt="img whatsUp"/>
-					<div>WhatsApp</div>
-				</div>
-				<div>
 					<img src={linkedin} alt="img LinkedIn"/>
-					<div>LinkedIn</div>
-				</div>
-				<div>
 					<img src={headhunter} alt="img HH"/>
-					<div>HH</div>
-				</div>
 			</div>
 		</form>
 	);

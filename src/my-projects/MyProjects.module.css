@@ -5,10 +5,6 @@
     max-width: 769px;
 }
 
-.myProjectsContainer {
-
-}
-
 .header {
     border-bottom: 1px solid;
     padding-bottom: 20px;
@@ -16,26 +12,20 @@
 }
 
 .projectsContainer {
-    min-width: 600px;
+    min-width: 360px;
     word-wrap: revert;
 }
-
 .projects {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 120px minmax(300px, auto);
     gap: 10px;
     margin-bottom: 10px;
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*flex-wrap: nowrap;*/
 }
-
 .project {
     height: 120px;
     width: 120px;
     background-color: #e0cfd0;
 }
-
 .descriptionProjects {
     word-wrap: break-word;
 }
