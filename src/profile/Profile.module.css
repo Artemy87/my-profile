@@ -1,14 +1,26 @@
 .profile {
+    /*min-height: 100vh;*/
+    /*max-width: 769px;*/
+    /*margin: 50px;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
     min-height: 100vh;
-    max-width: 769px;
-    margin: 50px;
-    justify-content: center;
-    align-items: center;
+    flex: 0 0 50%;
+    position: sticky;
+    top: 0px;
 }
 
+.profile2 {
+    position: sticky;
+    top: 284px;
+}
 
 .container {
-    margin: 210px 10px 10px 10px;
+    /*margin: 210px 10px 10px 10px;*/
+
+    margin-right: 50px;
+    margin-top: 210px;
 }
 
 .image {
@@ -62,3 +74,17 @@
     border: none;
     background-color: #c6c6c6;
 }
+
+@media (max-width: 1280px) {
+    .profile2 {
+        position: initial;
+        top: 284px;
+    }
+    .profile {
+        min-height: 100%;
+    }
+}
+
+    /*Mobile: 360 - 767*/
+    /*Tablet: 767 - 1279*/
+    /*Dekstop: 1280+*/

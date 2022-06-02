@@ -1,7 +1,10 @@
 .contactsContainer {
-    margin: 0 50px;
+    /*margin: 0 50px;*/
+    /*padding: 50px;*/
+    /*max-width: 769px;*/
+    /*border: 1px solid;*/
+
     padding: 50px;
-    max-width: 769px;
     border: 1px solid;
 }
 

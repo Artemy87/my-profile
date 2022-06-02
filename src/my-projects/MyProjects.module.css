@@ -1,8 +1,11 @@
 .myProjects {
-    margin: 0 50px;
+    /*margin: 0 50px;*/
+    /*padding: 50px;*/
+    /*border: 1px solid;*/
+    /*max-width: 769px;*/
+
     padding: 50px;
     border: 1px solid;
-    max-width: 769px;
 }
 
 .header {
