@@ -1,9 +1,4 @@
 .main {
-    /*max-width: 769px;*/
-    /*margin: 0 50px;*/
-    /*padding: 50px;*/
-    /*border: 1px solid;*/
-
     padding: 50px;
     border: 1px solid;
 }
@@ -12,4 +7,13 @@
     border-bottom: 2px solid;
     padding-bottom: 20px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: auto;
+    }
+    .header {
+        width: auto;
+    }
 }
