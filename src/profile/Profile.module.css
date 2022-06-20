@@ -8,12 +8,8 @@
 .profile2 {
     position: sticky;
     top: 284px;
+    padding: 50px;
 }
-
-/*.container {
-    !*margin-right: 50px;*!
-    !*margin-top: 210px;*!
-}*/
 
 .image {
     height: 220px;
