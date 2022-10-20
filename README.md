@@ -6,8 +6,6 @@
 
 ## Available Scripts
 
-<br/>
-
 ***To clone a project from GitHub, do it in the console:***
 ### `git clone https://github.com/Artemy87/my-profile.git`
 
