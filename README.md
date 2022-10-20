@@ -1,6 +1,6 @@
-###Hi!
+### Hi!
 
-####This project was launched using [Create React App](https://github.com/facebook/create-react-app ).
+#### This project was launched using [Create React App](https://github.com/facebook/create-react-app ).
 
 ***
 
@@ -29,7 +29,7 @@ You may also see any link errors in the console.
 <br/>
 
 ***Test***
-###  `yarn test`
+### `yarn test`
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
@@ -46,7 +46,7 @@ Your app is ready to be deployed!
 
 ***
 
-###Technology stack:
+### Technology stack:
 - React
 - Material UI
 - CSS3
