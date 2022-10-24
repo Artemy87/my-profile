@@ -1,0 +1,76 @@
+.myExperience {
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #3d3d3d;
+}
+
+.experienceBlock {
+    margin-bottom: 100px;
+}
+
+.contentBlock {
+    /*color: #3d3d3d;*/
+    color: #fae8ff;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.year {
+    font-size: 1.1rem;
+    padding: 5px 0 0 0;
+}
+
+.projectsContainer {
+    min-width: 360px;
+    word-wrap: revert;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 120px minmax(300px, auto);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.project {
+    min-height: 120px;
+    min-width: 120px;
+}
+.descriptionProjects {
+    word-wrap: break-word;
+}
+
+.contentHeader {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.responsibilitiesHeader {
+    font-size: 1.2rem;
+    margin: 15px 0 3px 0;
+    font-weight: 600;
+}
+
+.content {
+    font-size: 1.2rem;
+}
+
+.stackContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.stackHeader {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fae8ff;
+}
+
+.stack {
+    font-size: 1.1rem;
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    line-height: .8rem;
+}
