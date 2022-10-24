@@ -1,15 +1,11 @@
 .contactsContainer {
-    /*margin: 0 50px;*/
-    /*padding: 50px;*/
-    /*max-width: 769px;*/
-    /*border: 1px solid;*/
-
     padding: 50px;
-    border: 1px solid;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #3d3d3d;
 }
 
 .header {
-    border-bottom: 1px solid;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }

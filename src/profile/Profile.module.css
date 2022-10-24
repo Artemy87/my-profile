@@ -7,61 +7,57 @@
 
 .profile2 {
     position: sticky;
-    top: 284px;
+    top: 60px;
     padding: 50px;
 }
 
 .image {
     height: 220px;
     width: 220px;
-    border: 8px solid white;
     border-radius: 50%;
+}
 
+.textGroup {
+    margin-top: 30px;
 }
 
 .textHi {
     text-align: left;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #3d3d3d;
-}
-
-.textName {
-    font-size: 4.5rem;
-    font-weight: bold;
-    margin-left: 20px;
-    color: #ff014f;;
 }
 
 .textRD {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     color: #3d3d3d;
-    text-align: left;
-}
-
-.description {
-    font-size: 1.5rem;
-    color: #3d3d3d;
-    margin-block-start: 2em;
-    margin-block-end: 2em;
     text-align: left;
 }
 
 .buttons {
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    max-width: 355px;
+    margin-top: 20px;
 }
 
 .buttons button {
-    font-size: 1.6rem;
-    margin: 10px 20px;
-    padding: 10px 15px;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #131313;
+    margin: 10px 0;
+    padding: 8px 12px;
     height: auto;
     width: auto;
     border-radius: 5px;
-    border: none;
-    background-color: #c6c6c6;
+    border: 1px solid black;
+    background-color: #eeeeee;
+}
+
+.linkToGitHub {
+    text-decoration: none;
 }
 
 @media (max-width: 1280px) {
@@ -83,29 +79,5 @@
         margin: 0;
         padding: 0;
     }
-
-    /*.profile {*/
-    /*    min-height: 100%;*/
-    /*}*/
 }
 
-/*@media (max-width: 767px) {*/
-/*    .profile {*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*    }*/
-/*    .container2 {*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*    }*/
-/*    .container {*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/
-
-/*
-Mobile: 360 - 767
-Tablet: 767 - 1279
-Desktop: 1280+
-*/

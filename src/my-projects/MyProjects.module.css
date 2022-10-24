@@ -1,34 +1,44 @@
 .myProjects {
-    /*margin: 0 50px;*/
-    /*padding: 50px;*/
-    /*border: 1px solid;*/
-    /*max-width: 769px;*/
-
     padding: 50px;
-    border: 1px solid;
-}
-
-.header {
-    border-bottom: 1px solid;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #3d3d3d;
 }
 
 .projectsContainer {
     min-width: 360px;
     word-wrap: revert;
+    color: #fae8ff;
+    font-size: 1.2rem;
 }
 .projects {
     display: grid;
-    grid-template-columns: 120px minmax(300px, auto);
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 10px;
 }
-.project {
-    height: 120px;
-    width: 120px;
-    background-color: #e0cfd0;
+.titleProject {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 30px;
 }
 .descriptionProjects {
     word-wrap: break-word;
+}
+
+.stackContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.stackHeader {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.stack {
+    font-size: 1.1rem;
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    line-height: .8rem;
 }
