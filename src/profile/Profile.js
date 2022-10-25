@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Profile.module.css';
 import image from '../assets/my-photo/photo.jpg';
+import myCV from '../common/cv/webDeveloperCV.pdf'
 import { Button } from "@material-ui/core";
-import basicText from '../common/styles/BasicText.module.css';
 
 export const Profile = () => {
 	return (
@@ -15,12 +15,13 @@ export const Profile = () => {
 					<div className={styles.textHi}>Hi! I am Artemii</div>
 					<div className={styles.textRD}>React developer</div>
 				</div>
-				<div className={styles.buttons}>
-					{/*<button>Download My CV</button>*/}
-					{/*<button>Hire Me</button>*/}
-					<Button variant="outlined">Download my CV</Button>
-					{/*<Button variant="outlined">View my GitHub</Button>*/}
-					<a className={`${basicText.basicText} ${styles.linkToGitHub}`} href="https://github.com/Artemy87">View my Github</a>
+				<div className={styles.linkGroup}>
+					<Button href={myCV} download variant="contained">
+						view my github
+					</Button>
+					<Button href="https://github.com/Artemy87" target='_blank' variant="contained">
+						view my github
+					</Button>
 				</div>
 			</div>
 		</div>

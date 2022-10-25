@@ -1,16 +1,11 @@
 .myExperience {
-    padding: 50px;
+    padding: 25px 30px 50px 30px;
     border: 1px solid black;
     border-radius: 10px;
     background: #3d3d3d;
 }
 
-.experienceBlock {
-    margin-bottom: 100px;
-}
-
 .contentBlock {
-    /*color: #3d3d3d;*/
     color: #fae8ff;
     box-sizing: border-box;
     margin-bottom: 50px;

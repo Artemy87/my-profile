@@ -1,13 +1,8 @@
 .contactsContainer {
-    padding: 50px;
+    padding: 20px 30px 70px 30px;
     border: 1px solid black;
     border-radius: 10px;
     background: #3d3d3d;
-}
-
-.header {
-    padding-bottom: 20px;
-    margin-bottom: 30px;
 }
 
 .contacts {
@@ -16,12 +11,11 @@
     flex-wrap: wrap;
     justify-content: start;
     gap: 30px;
-    margin-top: 70px;
 }
 
 .contacts img {
-    height: 70px;
-    border-radius: 50%;
+    height: 50px;
+    border-radius: 15%;
 }
 
 

@@ -1,5 +1,5 @@
 .skills {
-    padding: 50px;
+    padding: 25px 30px 50px 30px;
     border: 1px solid black;
     border-radius: 10px;
     background: #3d3d3d;
@@ -14,12 +14,13 @@
     grid-template-columns: repeat(auto-fill, 60px);
     gap: 22px;
     justify-content: space-between;
+    max-width: 388px;
 }
 
 .icons {
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
     background: #ffffff;
     border-radius: 10px;
-    padding: 5px;
+    padding: 3px;
 }

@@ -1,11 +1,14 @@
 .myProjects {
-    padding: 50px;
+    padding: 20px 30px 70px 30px;
     border: 1px solid black;
     border-radius: 10px;
     background: #3d3d3d;
 }
 
 .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     min-width: 360px;
     word-wrap: revert;
     color: #fae8ff;
@@ -19,7 +22,6 @@
 .titleProject {
     font-size: 1.3rem;
     font-weight: bold;
-    margin-top: 30px;
 }
 .descriptionProjects {
     word-wrap: break-word;

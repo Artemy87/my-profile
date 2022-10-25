@@ -35,15 +35,18 @@
     text-align: left;
 }
 
-.buttons {
+.linkGroup {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 355px;
+    max-width: 330px;
     margin-top: 20px;
 }
 
-.buttons button {
+.linkGroup button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
     font-size: .9rem;
     font-weight: bold;
     color: #131313;
@@ -56,18 +59,27 @@
     background-color: #eeeeee;
 }
 
-.linkToGitHub {
+.link {
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background: #d7d7d7;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-weight: 600;
 }
 
 @media (max-width: 1280px) {
     .profile2 {
         position: initial;
-        top: 284px;
+        /*top: 284px;*/
+        top: 60px;
     }
 
     .profile {
         min-height: 100%;
+        margin-top: 50px;
     }
 }
 

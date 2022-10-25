@@ -3,9 +3,9 @@ import styles from './Contacts.module.css';
 import basicText from '../common/styles/BasicText.module.css';
 import commonHeaderText from '../common/styles/HeaderText.module.css';
 import telegram from '../assets/images-contacts/telegram.jpeg';
-import whatsapp from '../assets/images-contacts/whatsapp.jpeg';
-import linkedin from '../assets/images-contacts/linkedIn.jpeg';
-import headhunter from '../assets/images-contacts/headhunter.webp';
+import whatsapp from '../assets/images-contacts/whatsapp.png';
+import linkedin from '../assets/images-contacts/linkedin.png';
+import headhunter from '../assets/images-contacts/headhunter.png';
 
 export const Contacts = () => {
 	return (
