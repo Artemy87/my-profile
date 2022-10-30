@@ -17,7 +17,7 @@ export const Profile = () => {
 				</div>
 				<div className={styles.linkGroup}>
 					<Button href={myCV} download variant="contained">
-						view my github
+						download my cv
 					</Button>
 					<Button href="https://github.com/Artemy87" target='_blank' variant="contained">
 						view my github
