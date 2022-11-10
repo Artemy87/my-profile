@@ -5,9 +5,9 @@ import commonHeaderText from '../common/styles/HeaderText.module.css';
 export const Main = () => {
 	return (
 		<div className={styles.main}>
-			<div className={`${commonHeaderText.headerTitle} ${styles.header}`}>
+			{<div className={`${commonHeaderText.headerTitle} ${styles.header}`}>
 				About Me
-			</div>
+			</div>}
 			<div className={styles.content}>
 				<div>
 					Front-End developer with experience in creating SPA using JavaScript, TypeScript, React, Redux(RTK).
